@@ -1,6 +1,10 @@
 # ctd-fe3-final
 
-Examen Final de Frontend III
+Examen Final de Frontend III - Camada 7
+
+## Integrantes
+- Juan Andrés Pérez Trejos
+- Juan Troncoso
 
 ## Indice
 
