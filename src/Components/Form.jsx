@@ -36,8 +36,8 @@ const Form = () => {
         <input placeholder="Your email..." type="email" ref={emailRef}/>
         <button className="contact__button">Submit contact</button>
       </form>
-      {formHaveErrors ? <b>Por favor verifique su información nuevamente!</b> : ""}
-      {isCompleteForm ? <b>Gracias {nameRef.current.value}, te contactaremos cuanto antes vía mail</b> : ""}
+      {formHaveErrors && <b>Por favor verifique su información nuevamente!</b>}
+      {isCompleteForm && <b>Gracias {nameRef.current.value}, te contactaremos cuanto antes vía mail</b>}
     </div>
   );
 };
